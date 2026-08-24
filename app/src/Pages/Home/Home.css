@@ -1,0 +1,97 @@
+
+.but {
+  background: rgba(249, 61, 3, 0.91);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.but:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(45, 4, 230, 0.6);
+}
+
+
+.Home-Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Homepage {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.Note-Form {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 360px;
+}
+
+.Note-Form input {
+  padding: 10px 14px;
+  border: 1px solid #d0d8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.Note-Form input:focus {
+  border-color: #a8c400;
+  box-shadow: 0 0 0 2px rgba(168, 196, 0, 0.2);
+}
+
+.Note-Form button {
+  background: linear-gradient(135deg, #a8c400, #c9d400);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(168, 196, 0, 0.4);
+}
+
+.Note-Form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(168, 196, 0, 0.6);
+}
+
+.close-btn {
+  align-self: flex-end;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #888;
+  box-shadow: none;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+  color: #333;
+  transform: none;
+  box-shadow: none;
+}

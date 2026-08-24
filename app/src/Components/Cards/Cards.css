@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border: 2px solid #19f009;
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 25px rgba(110, 21, 174, 0.685);
+}
+
+
+.card p {
+  margin: 6px 0;
+  color: #666;
+}
